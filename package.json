@@ -4,13 +4,15 @@
   "description": "Learn express crash course from Traversy Media",
   "main": "index.js",
   "scripts": {
-   "start":"node index.js",
-   "dev":"nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Minh Thanh Nguyen",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
